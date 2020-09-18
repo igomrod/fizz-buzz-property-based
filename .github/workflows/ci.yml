@@ -19,3 +19,4 @@ jobs:
         run: |
           echo "Job Context: $JOB_CONTEXT"
           echo "Done!"  
+          python --version
