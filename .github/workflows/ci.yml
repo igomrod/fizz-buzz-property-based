@@ -16,6 +16,6 @@ jobs:
       - name: More 
         env:
           JOB_CONTEXT: ${{ toJson(job) }}
-          run: |
-            echo "Job Context: $JOB_CONTEXT"
-            echo "Done!"  
+        run: |
+          echo "Job Context: $JOB_CONTEXT"
+          echo "Done!"  
