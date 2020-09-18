@@ -64,6 +64,6 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
  
  NOTE: assume() filters the generated test by a conditions
  
- Uncomment verbosity setting in conftest to see all tested numbers
+ Uncomment verbosity setting in conftest to see all tested numbers.
  
  
