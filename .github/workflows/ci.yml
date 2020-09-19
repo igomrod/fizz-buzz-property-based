@@ -5,7 +5,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: usain
+    runs-on: self-hosted
     strategy:
       matrix:
         python-version: [3.6]
