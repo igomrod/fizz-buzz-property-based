@@ -12,6 +12,9 @@ jobs:
         
     steps:
       - uses: actions/checkout@v1
+      
+      - name: Check connectivity
+        run: curl -XGET http://20.50.37.120:9200/_cluster/health
 
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
